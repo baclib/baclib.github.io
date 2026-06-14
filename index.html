@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The BAClib Initiative - Free, libre, and open source software for building automation and control">
+    <meta name="description"
+        content="The BAClib Initiative - Free, libre, and open source software for building automation and control">
     <title>The BAClib Initiative</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -20,19 +23,18 @@
 
     <main class="container">
 
-
-
         <section class="hero">
             <h2>About the Initiative</h2>
             <p>
-                The BAClib Initiative is a primarily recreational effort dedicated to building automation 
-                and control, providing free, libre, and open source software for everyone. Drawing on 
-                decades of experience with BACnet protocols and implementations, this initiative aims to 
-                create modern, well-designed tools and libraries that benefit the entire building automation 
-                community.
+                The BAClib Initiative is a primarily recreational effort focused on building automation
+                and control, providing free, libre, and open source software for the broader community.
+                Drawing on decades of experience with BACnet and related protocols, the initiative aims to
+                create modern, well-designed tools and libraries that benefit the entire building automation
+                ecosystem, with a strong focus on workflows across the full project lifecycle, including
+                planning, engineering, implementation, realization, commissioning, and operation.
             </p>
             <p>
-                As a volunteer-driven project developed in contributors' free time, progress follows the 
+                As a volunteer-driven project developed in contributors' free time, progress follows the
                 natural pace of recreational development rather than commercial timelines.
             </p>
         </section>
@@ -44,8 +46,8 @@
                     <h3>BACnet ASN.1 Parser</h3>
                     <p>
                         A lightweight Node.js parser for BACnet ASN.1 data type definitions.
-                        It parses ASN.1 into structured objects and normalizes output into
-                        BAClib-compliant kebab-case formats.
+                        It converts ASN.1 declarations into structured objects and normalizes the output
+                        into BAClib-compliant kebab-case formats.
                     </p>
                     <p>
                         Supports key BACnet constructs including ENUMERATED, SEQUENCE,
@@ -53,8 +55,10 @@
                         and extensibility markers.
                     </p>
                     <p class="project-links">
-                        <a href="https://www.npmjs.com/package/@baclib/bacnet-asn1-parser" target="_blank" rel="noopener">View on NPM</a>
-                        <a href="https://github.com/baclib/bacnet-asn1-parser" target="_blank" rel="noopener">View project repository</a>
+                        <a href="https://www.npmjs.com/package/@baclib/bacnet-asn1-parser" class="button"
+                            target="_blank" rel="noopener">View on NPM</a>
+                        <a href="https://github.com/baclib/bacnet-asn1-parser" class="button" target="_blank"
+                            rel="noopener">View on GitHub</a>
                     </p>
                 </div>
                 <div class="project-card">
@@ -70,10 +74,27 @@
                         interface generation from shared type definitions.
                     </p>
                     <p class="project-links">
-                        <a href="https://www.npmjs.com/package/@baclib/generic-bacnet-types" target="_blank" rel="noopener">View on NPM</a>
-                        <a href="https://github.com/baclib/generic-bacnet-types" target="_blank" rel="noopener">View project repository</a>
+                        <a href="https://www.npmjs.com/package/@baclib/generic-bacnet-types" class="button"
+                            target="_blank" rel="noopener">View on NPM</a>
+                        <a href="https://github.com/baclib/generic-bacnet-types" class="button" target="_blank"
+                            rel="noopener">View on GitHub</a>
                     </p>
                 </div>
+            </div>
+        </section>
+
+        <section class="contribute">
+            <h2>Get Involved</h2>
+            <p>
+                Feedback, ideas, use cases, and suggestions are always appreciated. Your input helps shape
+                the project as it matures. Please note, however, that the initiative and its associated
+                projects are still in an early phase, with foundational decisions and architecture continuing
+                to take shape. As a result, direct code contributions are currently difficult without
+                additional internal context about the project's direction and design goals. Please reach out
+                with your thoughts and ideas before contributing code.
+            </p>
+            <div class="links">
+                <a href="https://github.com/baclib" class="button" target="_blank" rel="noopener">View on GitHub</a>
             </div>
         </section>
 
@@ -83,32 +104,20 @@
                 <strong>Copyright 2024-2026, The BAClib Initiative and Contributors</strong>
             </p>
             <p>
-                All project files are provided under the terms of the 
-                <a href="https://www.eclipse.org/legal/epl-2.0/" target="_blank" rel="noopener">Eclipse Public License - v 2.0</a>.
+                All project files are provided under the terms of the
+                <a href="https://www.eclipse.org/legal/epl-2.0/" target="_blank" rel="noopener">Eclipse Public License 2.0</a>.
             </p>
             <div class="license-note">
                 <p>
-                    <strong>Note:</strong> The Eclipse Public License 2.0 (EPL-2.0) is a business-friendly 
-                    open source license that permits permissive incorporation into proprietary software. 
-                    Unlike copyleft licenses, EPL-2.0 allows you to integrate this library into commercial 
-                    applications without requiring disclosure of your proprietary source code. Only modifications 
-                    to the library itself must be shared under the same license.
+                    <strong>Note:</strong> The Eclipse Public License 2.0 (EPL-2.0) is a business-friendly
+                    open source license that generally allows integration into proprietary software.
+                    Unlike strong copyleft licenses, EPL-2.0 does not require disclosure of your proprietary
+                    source code when this library is used within a commercial application. Modifications to
+                    the library itself, however, must still be shared under the same license.
                 </p>
             </div>
         </section>
 
-        <!--
-        <section class="contribute">
-            <h2>Get Involved</h2>
-            <p>
-                The BAClib Initiative welcomes contributions from the community. Whether you're interested 
-                in BACnet protocols, building automation, or open source development, there's a place for you here.
-            </p>
-            <div class="links">
-                <a href="https://github.com/baclib" class="button" target="_blank" rel="noopener">View on GitHub</a>
-            </div>
-        </section>
-        -->
     </main>
 
     <footer>
@@ -117,4 +126,5 @@
         </div>
     </footer>
 </body>
+
 </html>
