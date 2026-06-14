@@ -102,6 +102,8 @@ section p {
 
 .project-card {
     background: var(--bg-color);
+    display: flex;
+    flex-direction: column;
     padding: 30px;
     border-radius: 8px;
     border: 1px solid var(--border-color);
@@ -117,6 +119,17 @@ section p {
     color: var(--secondary-color);
     margin-bottom: 15px;
     font-size: 1.5rem;
+}
+
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: auto;
+}
+
+.project-links a:last-child {
+    margin-left: auto;
 }
 
 /* License Section */
@@ -204,5 +217,14 @@ footer p {
 
     .project-grid {
         grid-template-columns: 1fr;
+    }
+
+    .project-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project-links a:last-child {
+        margin-left: 0;
     }
 }
